@@ -2,7 +2,7 @@
 
 Data -> chart -> motion -> standalone HTML.
 
-[README preview](showcase/index.html) · [Chart motion atlas](showcase/chart-motion-atlas.html) · [Spec format](references/spec.md) · [Skill instructions](SKILL.md) · Reference sibling: [Pixel2Motion](https://github.com/nolangz/pixel2motion)
+[Commercial waitlist](docs/index.html) · [README preview](showcase/index.html) · [Chart motion atlas](showcase/chart-motion-atlas.html) · [Spec format](references/spec.md) · [Skill instructions](SKILL.md) · Reference sibling: [Pixel2Motion](https://github.com/nolangz/pixel2motion)
 
 This repository ships the Lite engine for Data2Motion: a script-driven Codex and Claude skill for turning small datasets into polished animated chart pages. It takes one JSON spec, chooses from a fixed chart vocabulary, and exports a dependency-free HTML file with the Data2Motion house style, replay controls, reduced-motion support, and deterministic QA hooks.
 
@@ -38,6 +38,7 @@ The result is intentionally constrained:
 - `chart_motion.html`: standalone animated chart page generated from a JSON spec.
 - `spec.json`: the data, chart type, title, takeaway, source, unit, duration, style, and optional scale settings.
 - `showcase/index.html`: README-style launch page for presenting the project.
+- `docs/index.html`: commercial waitlist page for the upcoming paid Pixel2Motion site.
 - `showcase/chart-motion-atlas.html`: Essential house-style reference.
 - `showcase/packages/ft.html`: FT-style reference template.
 - `references/spec.md`: the contract every input spec follows.
@@ -103,7 +104,7 @@ No runtime JavaScript dependencies are required in the generated chart HTML.
 
 - Confirm `README.md`, `SKILL.md`, `references/`, `scripts/`, `examples/`, and `showcase/` are committed.
 - Keep caches, local virtual environments, generated temp frames, and dependency directories out of git.
-- Enable GitHub Pages from the repository root or move `showcase/` to `docs/` before publishing from `/docs`.
+- Enable GitHub Pages from branch `main`, folder `/docs`, to publish the commercial waitlist page.
 - After creating the GitHub repository, add the remote and push:
 
 ```bash
